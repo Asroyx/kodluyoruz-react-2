@@ -15,8 +15,8 @@ function App() {
 
       <hr />
 
-      {friends.map((friend) => (
-        <div>{friend}</div>
+      {friends.map((friend, index) => (
+        <div key={index}>{friend}</div>
       ))}
     </div>
   );

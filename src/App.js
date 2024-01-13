@@ -12,6 +12,12 @@ function App() {
 
       <button onClick={() => setName("Ahmet")}>Change name</button>
       <button onClick={() => setAge("25")}>Change age</button>
+
+      <hr />
+
+      {friends.map((friend) => (
+        <div>{friend}</div>
+      ))}
     </div>
   );
 }

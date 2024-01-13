@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Hello! {name}</h1>
       <h2>{age}</h2>
-      <button onClick={() => setName("Ahmet")}>Click</button>
+      <button onClick={() => setName("Ahmet")}>Change name</button>
     </div>
   );
 }

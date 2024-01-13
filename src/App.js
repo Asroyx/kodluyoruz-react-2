@@ -2,6 +2,7 @@ import { useState } from "react";
 
 function App() {
   const [name, setName] = useState("Asil");
+  const [age, setAge] = useState(29);
 
   return (
     <div className="App">

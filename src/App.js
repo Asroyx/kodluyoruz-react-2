@@ -15,6 +15,7 @@ function App() {
 
       <hr />
 
+      <h2>Friends</h2>
       {friends.map((friend, index) => (
         <div key={index}>{friend}</div>
       ))}

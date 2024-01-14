@@ -19,6 +19,8 @@ function App() {
       {friends.map((friend, index) => (
         <div key={index}>{friend}</div>
       ))}
+
+      <button onClick={() => setFriends(["Ayşe"])}>Add new friend</button>
     </div>
   );
 }

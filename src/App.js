@@ -20,7 +20,7 @@ function App() {
         <div key={index}>{friend}</div>
       ))}
 
-      <button onClick={() => setFriends([...friends, "Ayşe"])}>
+      <button onClick={() => setFriends(["Ayşe", ...friends])}>
         Add new friend
       </button>
     </div>

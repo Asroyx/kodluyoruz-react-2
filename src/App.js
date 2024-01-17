@@ -36,7 +36,7 @@ function App() {
 
       <br />
 
-      <button onClick={() => setAddress({ title: "Ankara", zip: 44444 })}>
+      <button onClick={() => setAddress({ ...address, zip: 44444 })}>
         Change the address
       </button>
     </div>

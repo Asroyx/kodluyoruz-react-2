@@ -33,6 +33,12 @@ function App() {
         {address.title}
         {address.zip}
       </div>
+
+      <br />
+
+      <button onClick={() => setAddress({ title: "Ankara", zip: 44444 })}>
+        Change the address
+      </button>
     </div>
   );
 }

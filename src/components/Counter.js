@@ -1,9 +1,14 @@
-import React from "react";
+import { useState } from "react";
 
 function Counter() {
-  return <div>
-    
-  </div>;
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <h1>0</h1>
+      <button>Decrase</button>
+      <button>Incrase</button>
+    </div>
+  );
 }
 
 export default Counter;

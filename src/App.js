@@ -4,6 +4,7 @@ function App() {
   const [name, setName] = useState("Asil");
   const [age, setAge] = useState(29);
   const [friends, setFriends] = useState(["Ahmet", "Murat"]);
+  const [address, setAddress] = useState({ title: "Istanbul", zip: 34756 });
 
   return (
     <div className="App">

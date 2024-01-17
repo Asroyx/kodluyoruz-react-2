@@ -24,6 +24,15 @@ function App() {
       <button onClick={() => setFriends([...friends, "Ayşe"])}>
         Add new friend
       </button>
+
+      <hr />
+      <br />
+
+      <h2>Address</h2>
+      <div>
+        {address.title}
+        {address.zip}
+      </div>
     </div>
   );
 }

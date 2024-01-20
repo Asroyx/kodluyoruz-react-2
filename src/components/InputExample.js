@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 function InputExample() {
-  const [name, setName] = useState("");
+  const [name, setName] = useState("Asil");
 
   return (
     <div>
       Please enter a name <br />
-      <input value="test" />
+      <input value={name} />
     </div>
   );
 }

@@ -1,7 +1,11 @@
-import React from "react";
+import { useState } from "react";
 
 function InputExample() {
-  return <div>Hello!</div>;
+  return (
+    <div>
+      <input />
+    </div>
+  );
 }
 
 export default InputExample;

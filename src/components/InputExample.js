@@ -9,6 +9,8 @@ function InputExample() {
     <div>
       Please enter a name <br />
       <input value={name} onChange={onChangeName} />
+      <br />
+      {name}
     </div>
   );
 }

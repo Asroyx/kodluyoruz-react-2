@@ -6,7 +6,7 @@ function InputExample() {
   return (
     <div>
       Please enter a name <br />
-      <input value={name} />
+      <input value={name} onChange={(event) => setName(event.target.value)} />
     </div>
   );
 }

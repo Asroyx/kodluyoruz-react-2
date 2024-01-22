@@ -10,6 +10,11 @@ function InputExample() {
       Please enter a name <br />
       <input value={name} onChange={onChangeName} />
       <br />
+      <br />
+      {name}
+      Please enter a surname <br />
+      <input value={name} onChange={onChangeName} />
+      <br />
       {name}
     </div>
   );

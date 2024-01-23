@@ -5,6 +5,7 @@ function InputExample() {
   const [surname, setSurname] = useState("");
 
   const onChangeName = (event) => setName(event.target.value);
+  const onChangeSurname = (event) => setSurname(event.target.value);
 
   return (
     <div>

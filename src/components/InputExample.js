@@ -17,7 +17,7 @@ function InputExample() {
       Please enter a surname <br />
       <input value={name} onChange={onChangeSurname} />
       <br />
-      {name}
+      {name} {surname}
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import { useState } from "react";
 
 function InputExample() {
-  const [name, setName] = useState("Asil");
+  const [name, setName] = useState("");
+  const [surname, setSurname] = useState("");
 
   const onChangeName = (event) => setName(event.target.value);
 

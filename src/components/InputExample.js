@@ -5,6 +5,8 @@ function InputExample() {
 
   const onChangeInput = (e) => {
     console.log(e.target.name);
+
+    setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   return (

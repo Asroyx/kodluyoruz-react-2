@@ -10,14 +10,14 @@ function InputExample() {
   return (
     <div>
       Please enter a name <br />
-      <input value={name} onChange={onChangeInput} />
+      <input name="name" value={form.name} onChange={onChangeInput} />
       <br />
       <br />
       {name}
       Please enter a surname <br />
-      <input value={name} onChange={onChangeInput} />
+      <input name="surname" value={form.surname} onChange={onChangeInput} />
       <br />
-      {name} {surname}
+      {form.name} {form.surname}
     </div>
   );
 }
